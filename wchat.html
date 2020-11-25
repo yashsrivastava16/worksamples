@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/wchat.css">
+    <title>Welcome-Page</title>
+
+    <script>
+        function passvalue(){
+            var name=document.getElementById("txt").value;
+            localStorage.setItem("value",name);
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <h1>CHATFUEL</h1>
+    <form action="chat.html" method="GET">
+        <div class="box">
+            <input type="text" name="fname" placeholder="Enter your name" id="txt"/>
+           <input type="submit" class="btn" value="Enter" onclick="passvalue();"></input>
+        </div>
+    </form>
+</body>
+</html>

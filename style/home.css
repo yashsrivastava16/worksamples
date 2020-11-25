@@ -1,0 +1,20 @@
+body{
+    background-repeat: none;
+    background-position: 10%;
+}
+
+.message{
+    height: 200px;
+    width: 170px;
+    padding: 1%;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: rgb(233, 221, 59);
+}
+
+h2{
+    font-size: 20px;
+    /* margin-top: 10%; */
+    text-align: center;
+    color: rgb(81, 88, 88);
+}

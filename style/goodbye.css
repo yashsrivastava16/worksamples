@@ -1,0 +1,33 @@
+body{
+    background-repeat: none;
+    background-position: 0%;
+}
+
+.content{
+    height: 200px;
+    width: 500px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.button {
+    background-color: rgb(79, 216, 147);
+    border: none;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 110px;
+    border-radius:12px;
+}
+h2{
+    color:gray;
+}
+p{
+    color: gray;
+    font-size: 20px;
+}

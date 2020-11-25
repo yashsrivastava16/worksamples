@@ -1,0 +1,30 @@
+body{
+   background-image:url(./wimg.jpg);
+   
+}
+.box{
+    margin-top: 35%;
+    margin-left: 65%;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    /* background-color: blue; */
+}
+input[type="text"]{
+    border:none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    height: 40px;
+}
+.btn{
+    height: 30px;
+    width: 100px;
+    color: rgb(127, 189, 11);
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+input:focus{
+    outline:none;
+    
+}

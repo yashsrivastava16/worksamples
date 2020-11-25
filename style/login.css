@@ -1,0 +1,21 @@
+
+body{
+    background-size: 150%;
+    background-repeat: none;
+    background-position: 80%;
+}
+
+.main{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+h1{
+    font-size: 40px;
+    color: rgb(104, 104, 104);
+    margin-left: 650px;
+}
+#admin{
+    font-size: 20px;
+    /* margin-top: 400px; */
+}
+    
